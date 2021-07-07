@@ -5,7 +5,9 @@ console.log(`Hello, welcome to ${pizzaPlace} ${typeof pizzaPlace}! Savor the bes
 
 if (numberOfToppings < 10){
   console.log("Quality, no quantity.");
-} else {
+}
+else
+{
   console.log("A whole lof of pizza.");
 };
 
