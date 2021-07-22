@@ -1,0 +1,46 @@
+body {
+    min-height: 100vh;
+    background-color: #D2E190;
+    margin:0;
+    font-family: 'Fredoka One', cursive;
+}
+
+nav {
+    color: white;
+    background-color: #617B30;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    text-align: center;
+}
+
+.photo {
+    width: 700px;
+    margin: 10px;
+    border-style: solid;
+    border-width: 5px;
+    border-radius: 10%;
+}
+
+footer {
+    color: white;
+    margin-top: 50px;  
+    /* float: left; */
+    position: sticky;
+    top: 100;
+    width: 100%;
+    text-align: center;
+    background-color: #617B30;
+    height: 50px;
+    font-size: 20px;
+}
+
+#facts {
+    list-style: none;
+}
